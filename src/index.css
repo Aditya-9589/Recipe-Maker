@@ -1,0 +1,9 @@
+@import "tailwindcss";   /* ✅ New Tailwind v4 way */
+
+/* You don’t need @tailwind base/components/utilities anymore */
+
+
+/* Optional global style */
+body {
+  @apply bg-gray-50 text-gray-800;
+}
