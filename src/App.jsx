@@ -9,7 +9,7 @@ import { isLoggedIn } from "./utils/auth";
 
 
 // Learning CI/CD using GitHub Actions :- 
-const x = {
+// const x = {
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
