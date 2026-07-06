@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import RecipeCard from "../components/RecipeCard";
 
+//this page is the home page of the application, it fetches recipes from an API and displays them in a grid layout using RecipeCard components.
 const HomePage = () => {
     const [recipes, setRecipes] = useState([]);
 
